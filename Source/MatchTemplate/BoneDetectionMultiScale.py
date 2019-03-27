@@ -1,6 +1,5 @@
  # import the necessary packages
 import numpy as np
-import argparse
 import imutils
 import glob
 import cv2
@@ -9,9 +8,10 @@ import cv2
 # load the image image, convert it to grayscale, and detect edges
 template = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Bacino_left.jpg")
 template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
-template = cv2.Canny(template, 50, 200)
+template = cv2.Canny(template, 50, 100, 7)
 (tH, tW) = template.shape[:2]
-cv2.imshow("Template", template)
+template2 = cv2.resize(template, (200, 150))
+cv2.imshow("Template", template2)
 v = True
 
 # loop over the images to find the template in
@@ -26,7 +26,7 @@ for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/
     for scale in np.linspace(0.2, 1.0, 20)[::-1]:
         # resize the image according to the scale, and keep track
         # of the ratio of the resizing
-        resized = imutils.resize(gray, width = int(gray.shape[1] * scale))
+        resized = imutils.resize(gray, width=int(gray.shape[1] * scale))
         r = gray.shape[1] / float(resized.shape[1])
 
         # if the resized image is smaller than the template, then break
@@ -46,8 +46,9 @@ for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/
             clone = np.dstack([edged, edged, edged])
             cv2.rectangle(clone, (maxLoc[0], maxLoc[1]),
                 (maxLoc[0] + tW, maxLoc[1] + tH), (0, 0, 255), 2)
-            cv2.imshow("Visualize", clone)
-            cv2.waitKey(100)
+            clone2 = cv2.resize(clone, (960, 540))
+            cv2.imshow("Visualize", clone2)
+            cv2.waitKey(0)
 
         # if we have found a new maximum correlation value, then ipdate
         # the bookkeeping variable
@@ -62,8 +63,9 @@ for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/
 
     # draw a bounding box around the detected result and display the image
     cv2.rectangle(image, (startX, startY), (endX, endY), (0, 0, 255), 2)
-    cv2.imshow("Image", image)
-    cv2.waitKey(100)
+    image2 = cv2.resize(image, (960, 540))
+    cv2.imshow("Image", image2)
+    cv2.waitKey(0)
 
 
 
