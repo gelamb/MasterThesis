@@ -63,9 +63,8 @@ def find_bones(input_image, template_name, output_path, i):
         crop_image.save('Cropped{}.jpg'.format(i))
         crop_image_f.save('Cropped_flipped{}.jpg'.format(i))
 
-
-        cv2.rectangle(img, top_left, bottom_right, (255, 255, 255), thickness = 30)
-        cv2.rectangle(img, top_left_f, bottom_right_f, (0, 0, 0), thickness = 30)
+        cv2.rectangle(img, top_left, bottom_right, (255, 255, 255), thickness=30)
+        cv2.rectangle(img, top_left_f, bottom_right_f, (0, 0, 0), thickness=30)
 
         plt.imshow(img, cmap = 'gray')
         plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
