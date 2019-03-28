@@ -3,6 +3,7 @@ import numpy as np
 import imutils
 import glob
 import cv2
+import crop_rotate
 
 
 # load the image image, convert it to grayscale, and detect edges
@@ -13,7 +14,7 @@ template = cv2.Canny(template, 50, 100, 7)
 template2 = cv2.resize(template, (400, 400))
 cv2.imshow("Template", template2)
 v = True
-using_min = True
+using_min = False
 
 # loop over the images to find the template in
 for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/ImmaginiBacinoCopiaCrop/*.jpg"):

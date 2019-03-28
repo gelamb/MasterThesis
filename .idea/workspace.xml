@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fec705e-57ba-4618-916f-80d4464bb219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/MatchTemplate/Cropped_flipped9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,25 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#33#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="81" column="30" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +34,8 @@
       <list>
         <option value="$PROJECT_DIR$/BoneDetection.py" />
         <option value="$PROJECT_DIR$/Source/MatchFeature/BoneDetectionFeature.py" />
-        <option value="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" />
         <option value="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py" />
+        <option value="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" />
       </list>
     </option>
   </component>
@@ -241,12 +207,12 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2359015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2359015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1810219" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1810219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28467155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,22 +247,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="54" column="94" selection-start-line="54" selection-start-column="94" selection-end-line="54" selection-end-column="94" />
-          <folding>
-            <element signature="e#33#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="81" column="30" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
