@@ -9,22 +9,25 @@ import crop_rotate as cr
 if __name__ == "__main__":
 
     # if v == True see the various step of scaling and rotation
-    v = True
+    v = False
     # different time of algo for matching, work better with true
     using_min = True
     # text for images
     templates_text = ["Normal", "Flipped"]
     rotation_text = ["Normal", "Right", "Left"]
+    # canny threshold values
+    canny_min = 50
+    canny_max = 100
+    canny_win = 7
 
     # load the image image, convert it to grayscale, and detect edges
     template = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Bacino_left.jpg")
     template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
-    template = cv2.Canny(template, 50, 200, 7)
+    template = cv2.Canny(template, canny_min, canny_max, canny_win)
     # flip the template
     templates = [template, cv2.flip(template, 1)]
     # get template size
     (tH, tW) = template.shape[:2]
-
 
     # loop over the images to find the template in
     for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/ImmaginiBacinoCopiaCrop/*.jpg"):
@@ -53,7 +56,7 @@ if __name__ == "__main__":
                 for img in images:
                     # detect edges in the resized, grayscale image and apply template
                     # matching to find the template in the image
-                    edged = cv2.Canny(img, 50, 200, 7)
+                    edged = cv2.Canny(img, canny_min, canny_max, canny_win)
 
                     if using_min:
                         result = cv2.matchTemplate(edged, template[i], cv2.TM_SQDIFF)
