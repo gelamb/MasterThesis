@@ -41,18 +41,11 @@ def crop_rotate(image, degree):
 	(h, w) = image.shape[:2]
 	rotated = rotate_bound(image, degree)
 	(h_r, w_r) = rotated.shape[:2]
-	diff_h = h_r - h
-	diff_w = w_r - w
-	cropped = rotated[diff_h:-diff_h, diff_w:-diff_w]
-	return cropped
-	'''
-	cv2.imshow("original", resize(image, 30))
-	cv2.waitKey(0)
-	cv2.imshow("rotate", resize(rotated, 30))
-	cv2.waitKey(0)
-	cv2.imshow("crop", resize(cropped, 30))
-	cv2.waitKey(0)
-	'''
+	# diff_h = h_r - h
+	# diff_w = w_r - w
+	# cropped = rotated[diff_h:-diff_h, diff_w:-diff_w]
+	return rotated
+
 
 # image = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Bacino_left.jpg")
 # crop_rotate(image, 10)
