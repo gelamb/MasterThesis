@@ -39,7 +39,7 @@ def print_img(name, image, save=False, save_name=None):
 if __name__ == "__main__":
 
     # if v == True see the various step of scaling and rotation
-    v = False
+    v = True
     # different time of algo for matching, work better with true
     using_min = True
     using_rotation = True
@@ -51,12 +51,12 @@ if __name__ == "__main__":
     # text for images
     templates_text = ["Normal", "Flipped"]
     rotation_text = ["Normal", "Right", "Left"]
-    output_path = "/Users/leonardotanzi/Desktop/MasterThesis/Output/"
+    output_path = "/Users/leonardotanzi/Desktop/MasterThesis/Output/NewImages/Cropped/"
     # canny threshold values
 
     # load the image image, convert it to grayscale, and detect edges
     if alternative_approach:
-        template = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Bacinofake.jpg")
+        template = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Ischius.jpg")
     else:
         template = cv2.imread("/Users/leonardotanzi/Desktop/MasterThesis/Templates/Bacino_left3.jpg")
     template = pre_process_image(template)
@@ -66,10 +66,11 @@ if __name__ == "__main__":
     (tH, tW) = template.shape[:2]
 
     # loop over the images to find the template in
-    for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/Audisio/ImmaginiBacinoCopiaCrop/*.jpg"):
+    for imagePath in glob.glob("/Users/leonardotanzi/Desktop/TesiMagistrale/BonesNew/*.jpg"):
 
         if alternative_approach:
             distance_from_border = 60
+            square_size = 1000
             image = cv2.imread(imagePath)
             edged = pre_process_image(image)
             (h, w) = edged.shape[:2]
@@ -84,8 +85,8 @@ if __name__ == "__main__":
             clone = np.dstack([edged, edged, edged])
             # cv2.rectangle(clone, (loc[0], loc[1]), (loc[0] + tW, loc[1] + tH), (0, 0, 255), 30)
             # cv2.circle(clone, (loc[0], loc[1]), 30, (0, 255, 0), thickness=-1)
-            box_left = (0 + distance_from_border, loc[1] - int(tH/4), loc[0] + int(tW/4), h - distance_from_border)
-            box_right = (loc[0] + int(3/4*tW), loc[1] - int(tH/4), w - distance_from_border, h - distance_from_border)
+            box_left = (0 + distance_from_border, loc[1] - int(tH/4), distance_from_border + square_size,  loc[1] - int(tH/4) + square_size)
+            box_right = (loc[0] + int(3/4*tW), loc[1] - int(tH/4), loc[0] + int(3/4*tW) + square_size, loc[1] - int(tH/4) + square_size)
             cv2.rectangle(clone, (box_left[0], box_left[1]), (box_left[2], box_left[3]), (0, 0, 255), 10)
             cv2.rectangle(clone, (box_right[0], box_right[1]), (box_right[2], box_right[3]), (0, 0, 255), 10)
             if v:
@@ -200,4 +201,3 @@ if __name__ == "__main__":
                 cv2.rectangle(image, (startX, startY), (endX, endY), (0, 0, 255), 30)
                 name = (imagePath.split("/")[-1]).split(".")[-2] + "_" + str(i)
                 print_img("TemplateDetect", image, save=True, save_name=name)
-

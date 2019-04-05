@@ -3,205 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9fec705e-57ba-4618-916f-80d4464bb219" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped_flipped0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped_flipped1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped_flipped2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped_flipped3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/Cropped_flipped4.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino100_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino100_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino101_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino101_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino104_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino104_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino10_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino10_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino112_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino112_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino113_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino113_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino114_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino114_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino116_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino116_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino117_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino117_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino118_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino118_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino11_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino11_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino122_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino122_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino123_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino123_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino124_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino124_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino125_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino125_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino127_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino127_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino129_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino129_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino12_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino12_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino130_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino130_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino131_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino131_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino134_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino134_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino135_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino135_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino136_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino136_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino137_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino137_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino138_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino138_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino139_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino139_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino140_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino140_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino143_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino143_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino144_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino144_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino146_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino146_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino148_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino148_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino149_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino149_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino151_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino151_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino153_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino153_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino160_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino160_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino161_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino161_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino165_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino165_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino167_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino167_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino16_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino16_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino21_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino21_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino22_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino22_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino25_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino25_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino26_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino26_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino27_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino27_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino28_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino28_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino2_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino31_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino31_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino33_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino33_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino35_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino35_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino36_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino36_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino37_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino37_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino3_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino40_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino40_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino41_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino41_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino42_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino42_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino43_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino43_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino45_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino45_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino46_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino46_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino47_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino47_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino48_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino48_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino49_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino49_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino50_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino50_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino51_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino51_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino52_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino52_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino56_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino56_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino57_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino57_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino60_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino60_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino63_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino63_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino65_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino65_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino67_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino67_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino68_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino68_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino69_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino69_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino70_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino70_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino71_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino71_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino72_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino72_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino73_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino73_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino74_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino74_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino75_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino75_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino76_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino76_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino78_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino78_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino79_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino79_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino82_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino82_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino86_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino86_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino87_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino87_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino8_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino8_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino90_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino90_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino91_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino91_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino92_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino92_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino93_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino93_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino94_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino94_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino95_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino95_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino97_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino97_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino99_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino99_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino9_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/TemplateDetectBacino9_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/Bacinofake.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -214,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+            <state relative-caret-position="795">
+              <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
               <folding>
                 <element signature="e#32#50#0" expanded="true" />
               </folding>
@@ -226,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
+            <state relative-caret-position="1110">
               <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="69" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -238,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/crop_rotate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
+            <state relative-caret-position="555">
               <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -281,6 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,17 +267,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py</url>
-          <line>126</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/BoneDetection.py" />
     <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMoreTemplates.py">
@@ -496,19 +288,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/crop_rotate.py">
+    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="795">
+          <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#32#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionOneTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
+        <state relative-caret-position="1110">
           <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="69" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -516,12 +308,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
+    <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/crop_rotate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+        <state relative-caret-position="555">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
-            <element signature="e#32#50#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
