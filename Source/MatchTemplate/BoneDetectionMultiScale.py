@@ -39,7 +39,7 @@ def print_img(name, image, save=False, save_name=None):
 if __name__ == "__main__":
 
     # if v == True see the various step of scaling and rotation
-    v = True
+    v = False
     # different time of algo for matching, work better with true
     using_min = True
     using_rotation = True

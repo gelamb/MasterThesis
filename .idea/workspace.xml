@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fec705e-57ba-4618-916f-80d4464bb219" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Bacinofake.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+            <state relative-caret-position="232">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#32#50#0" expanded="true" />
               </folding>
@@ -290,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/MatchTemplate/BoneDetectionMultiScale.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="86" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="86" />
+        <state relative-caret-position="232">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#32#50#0" expanded="true" />
           </folding>
