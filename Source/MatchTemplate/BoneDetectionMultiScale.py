@@ -33,6 +33,8 @@ def print_img(name, image, save=False, save_name=None):
         cv2.waitKey(0)
         cv2.destroyWindow(name)
     else:
+        print(name)
+        print(save_name)
         cv2.imwrite(name + "{}.png".format(save_name), image)
 
 
@@ -70,7 +72,7 @@ if __name__ == "__main__":
 
         if alternative_approach:
             distance_from_border = 60
-            square_size = 1000
+            square_size = 1200
             image = cv2.imread(imagePath)
             edged = pre_process_image(image)
             (h, w) = edged.shape[:2]
@@ -83,10 +85,26 @@ if __name__ == "__main__":
                 _, val, _, loc = cv2.minMaxLoc(result)
 
             clone = np.dstack([edged, edged, edged])
-            # cv2.rectangle(clone, (loc[0], loc[1]), (loc[0] + tW, loc[1] + tH), (0, 0, 255), 30)
-            # cv2.circle(clone, (loc[0], loc[1]), 30, (0, 255, 0), thickness=-1)
-            box_left = (0 + distance_from_border, loc[1] - int(tH/4), distance_from_border + square_size,  loc[1] - int(tH/4) + square_size)
-            box_right = (loc[0] + int(3/4*tW), loc[1] - int(tH/4), loc[0] + int(3/4*tW) + square_size, loc[1] - int(tH/4) + square_size)
+
+            # control to not exceed the borders
+            # first I check if the right box exceed the right border (cannot happen for the left box)
+            # second I check if both box height surpass the height of the image
+            if loc[0] + int(3/4*tW) + square_size > w:
+                rightbox_leftX = w - square_size - distance_from_border
+                rightbox_rightX = w - distance_from_border
+            else:
+                rightbox_leftX = loc[0] + int(3 / 4 * tW)
+                rightbox_rightX = loc[0] + int(3 / 4 * tW) + square_size
+
+            if loc[1] - int(tH / 4) + square_size > h:
+                box_up = h - distance_from_border - square_size
+                box_down = h - distance_from_border
+            else:
+                box_up = loc[1] - int(tH / 4)
+                box_down = loc[1] - int(tH / 4) + square_size
+
+            box_right = (rightbox_leftX, box_up, rightbox_rightX, box_down)
+            box_left = (0 + distance_from_border, box_up, distance_from_border + square_size, box_down)
             cv2.rectangle(clone, (box_left[0], box_left[1]), (box_left[2], box_left[3]), (0, 0, 255), 10)
             cv2.rectangle(clone, (box_right[0], box_right[1]), (box_right[2], box_right[3]), (0, 0, 255), 10)
             if v:
@@ -94,7 +112,6 @@ if __name__ == "__main__":
             image_to_crop = Image.open(imagePath)
             crop_image_left = image_to_crop.crop(box_left)
             crop_image_right = image_to_crop.crop(box_right)
-
             crop_image_left.save(output_path + ("{}_left.jpg".format(imagePath.split("/")[-1].split(".")[-2])))
             crop_image_right.save(output_path + ("{}_right.jpg".format(imagePath.split("/")[-1].split(".")[-2])))
 
